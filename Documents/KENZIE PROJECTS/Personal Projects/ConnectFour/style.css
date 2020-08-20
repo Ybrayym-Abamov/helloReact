@@ -1,0 +1,37 @@
+
+#playArea{
+    height: 370px;
+    width: 500px;
+    background: blue;
+    display: flex;
+    cursor: pointer;
+}
+
+.column{
+    display: flex;
+    width: 14.28%;
+    height: 370px;
+    outline: 1px solid black;
+    flex-direction: column-reverse;
+    background: green;
+}
+
+.disk{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    background: white; 
+    align-self: center;
+    margin: 5px;
+}
+
+.center-ol {
+    text-align: center;
+    list-style-position: inside;
+    margin-right: 40px;
+}
+
+h1 {
+    margin-top: 135px;
+}
